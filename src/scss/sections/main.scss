@@ -1,0 +1,36 @@
+.main {
+  padding: 110px 0;
+  background: url("@img/main.jpg") center center no-repeat;
+  background-size: contain;
+
+  // .main__container
+
+  &__container {
+  }
+
+  // .main__body
+
+  &__body {
+    max-width: 550px;
+  }
+
+  // .main__title
+
+  &__title {
+    margin: 0 0 26px 0;
+  }
+
+  // .main__desc
+
+  &__desc {
+    margin: 0 0 38px 0;
+	 line-height: 1.9;
+  }
+
+  // .main__button
+
+  &__button {
+  }
+}
+.button {
+}

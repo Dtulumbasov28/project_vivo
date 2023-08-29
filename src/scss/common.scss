@@ -1,0 +1,41 @@
+// Заголовки, общие БЄМ блоки и проче...
+@media (hover: hover) {
+  // .header__menu-link
+
+  .header__menu-link {
+    transition: all 0.3s;
+
+    &:hover {
+      color: white;
+      background: var(--color-cobalt);
+      transition: all 0.3s;
+    }
+  }
+  .header__phone-link {
+    transition: all 0.3s;
+
+    &:hover {
+      color: var(--color-cobalt);
+      transition: all 0.3s;
+    }
+  }
+}
+h1,
+h2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color-title);
+  line-height: 1.2;
+}
+h2 {
+  text-align: center;
+}
+.button {
+  font-weight: 700;
+  color: #fff;
+  background: var(--color-cobalt);
+  padding: 20px 60px;
+  border-radius: 30px;
+}
