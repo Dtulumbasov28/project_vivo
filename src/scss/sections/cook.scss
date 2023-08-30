@@ -1,0 +1,113 @@
+.cook {
+  // .cook__container
+
+  &__container {
+  }
+
+  // .cook__body
+
+  &__body {
+  }
+
+  // .cook__title
+
+  &__title {
+    margin-bottom: 12px;
+  }
+
+  // .cook__subtitle
+
+  &__subtitle {
+    margin-bottom: 20px;
+  }
+
+  // .cook__desc
+
+  &__desc {
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+  }
+
+  // .cook__tabs
+
+  &__tabs {
+    max-height: 80px !important;
+  }
+
+  // .cook__yogurtnitsa
+
+  &__yogurtnitsa {
+    max-height: 80px !important;
+  }
+
+  // .cook__multyvarka
+
+  &__multyvarka {
+    max-height: 80px !important;
+  }
+
+  // .cook__yogobox
+
+  &__yogobox {
+  }
+}
+.cook-tabs {
+  // .cook-tabs__navigation
+
+  &__navigation {
+  }
+
+  // .cook-tabs__button
+
+  &__button {
+  }
+
+  // .cook-tabs__button-img
+
+  &__button-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & svg {
+      max-width: 95px;
+      max-height: 85px;
+    }
+  }
+
+  // .cook-tabs__button-text
+
+  &__button-text {
+  }
+
+  // .cook-tabs__content
+
+  &__content {
+  }
+
+  // .cook-tabs__body
+
+  &__body {
+  }
+
+  // .cook-tabs__list
+
+  &__list {
+  }
+
+  // .cook-tabs__item
+
+  &__item {
+  }
+
+  // .cook-tabs__item-img
+
+  &__item-img {
+  }
+
+  // .cook-tabs__item-text
+
+  &__item-text {
+  }
+}

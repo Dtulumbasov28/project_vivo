@@ -3,20 +3,20 @@
   // .header__menu-link
 
   .header__menu-link {
-    transition: all 0.3s;
+    transition: 0.2s ease;
 
     &:hover {
       color: white;
       background: var(--color-cobalt);
-      transition: all 0.3s;
+      transition: 0.2s ease;
     }
   }
   .header__phone-link {
-    transition: all 0.3s;
+    transition: 0.2s ease;
 
     &:hover {
       color: var(--color-cobalt);
-      transition: all 0.3s;
+      transition: 0.2s ease;
     }
   }
 }
@@ -38,4 +38,14 @@ h2 {
   background: var(--color-cobalt);
   padding: 20px 60px;
   border-radius: 30px;
+}
+.subtitle {
+  font-family: Roboto Condensed;
+  font-size: 30px;
+  font-weight: 300;
+  color: var(--color-title);
+  text-align: center;
+}
+.desc {
+  line-height: 1.9;
 }

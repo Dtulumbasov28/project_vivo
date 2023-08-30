@@ -1,0 +1,50 @@
+.where-buy {
+  padding: 30px 0 50px 0;
+
+  // .where-buy__body
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  // .where-buy__img
+
+  &__img {
+    max-width: 600px;
+    max-height: 400px;
+  }
+
+  // .where-buy__title
+
+  &__title {
+    margin-bottom: 12px;
+  }
+
+  // .where-buy__subtitle
+
+  &__subtitle {
+    max-width: 750px;
+    margin-bottom: 36px;
+  }
+
+  // .where-buy__list
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: -12px;
+    max-width: 1060px;
+  }
+
+  // .where-buy__item
+
+  &__item {
+    margin: 12px;
+    max-width: 220px;
+    max-height: 100px;
+  }
+}

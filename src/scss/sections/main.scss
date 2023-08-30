@@ -1,6 +1,6 @@
 .main {
   padding: 110px 0;
-  background: url("@img/main.jpg") center center no-repeat;
+  background: #fff url("@img/main_background.jpg") center center no-repeat;
   background-size: contain;
 
   // .main__container
@@ -24,13 +24,10 @@
 
   &__desc {
     margin: 0 0 38px 0;
-	 line-height: 1.9;
   }
 
   // .main__button
 
   &__button {
   }
-}
-.button {
 }
