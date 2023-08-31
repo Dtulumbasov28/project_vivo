@@ -57,6 +57,7 @@
     }
     @media (max-width: $mobile) {
       margin: 10px 0;
+      text-align: center;
     }
 
     &::before {
@@ -65,7 +66,7 @@
       z-index: 1;
 
       @media (max-width: $mobile) {
-        margin: 0 0 14px 20px;
+        margin: 0 auto 14px auto;
       }
     }
     &::after {
@@ -78,7 +79,9 @@
       height: 156px;
 
       @media (max-width: $mobile) {
-        left: 0;
+        left: 50%;
+        top: -30px;
+        transform: translate(-50%, 0);
       }
     }
 

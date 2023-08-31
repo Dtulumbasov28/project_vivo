@@ -13,7 +13,7 @@
     padding: 60px 0;
   }
   @media (max-width: $mobile) {
-    background-position: -72vw top;
+    background-position: -75vw top;
     background-size: 200%;
     padding: 30px 0;
   }
@@ -40,6 +40,7 @@
 
     @media (max-width: $mobile) {
       margin: 0 0 10px 0;
+      text-align: center;
     }
   }
 
@@ -47,6 +48,10 @@
 
   &__desc {
     margin: 0 0 38px 0;
+
+    @media (max-width: $mobile) {
+      text-align: center;
+    }
     @media (max-width: $mobileSmall) {
       margin: 0 0 20px 0;
     }
@@ -55,5 +60,9 @@
   // .main__button
 
   &__button {
+    @media (max-width: $mobile) {
+      display: flex;
+      margin: auto;
+    }
   }
 }
