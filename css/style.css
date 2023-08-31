@@ -185,6 +185,11 @@ h2 {
   line-height: 1.9;
 }
 
+.webp .main {
+  background: #fff url("../img/main_background.jpg") center center no-repeat;
+  background-size: contain;
+}
+
 .header {
   position: fixed;
   z-index: 2;
@@ -411,10 +416,8 @@ h2 {
   font-weight: 700;
 }
 
-.no-webp .main{
-  background: #fff url("../img/main_background.jpg") center center no-repeat; }
-
 .main {
+  background: #fff url("../img/main_background.jpg") center center no-repeat;
   background-size: contain;
   padding: 110px 0;
 }
@@ -436,10 +439,8 @@ h2 {
   padding: 30px 0 80px 0;
 }
 
-.no-webp .benefits__body{
-  background: url("../img/benefits/benefits_background.png") center center no-repeat; }
-
 .benefits__body {
+  background: url("../img/benefits/benefits_background.png") center center no-repeat;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -488,63 +489,47 @@ h2 {
   height: 156px;
 }
 
-.no-webp .benefits__item:nth-child(1)::before{
-  background: url("../img/benefits/benefits_svezhiy.png") center center no-repeat; }
-
 .benefits__item:nth-child(1)::before {
+  background: url("../img/benefits/benefits_svezhiy.png") center center no-repeat;
   width: 91px;
   height: 91px;
 }
 
-.no-webp .benefits__item:nth-child(1)::after{
-  background: url("../img/benefits/benefits_decor-1.png") center center no-repeat; }
-
 .benefits__item:nth-child(1)::after {
+  background: url("../img/benefits/benefits_decor-1.png") center center no-repeat;
   background-size: contain;
 }
 
-.no-webp .benefits__item:nth-child(2)::before{
-  background: url("../img/benefits/benefits_zhivoy.png") center center no-repeat; }
-
 .benefits__item:nth-child(2)::before {
+  background: url("../img/benefits/benefits_zhivoy.png") center center no-repeat;
   width: 88px;
   height: 91px;
 }
 
-.no-webp .benefits__item:nth-child(2)::after{
-  background: url("../img/benefits/benefits_decor-2.png") center center no-repeat; }
-
 .benefits__item:nth-child(2)::after {
+  background: url("../img/benefits/benefits_decor-2.png") center center no-repeat;
   background-size: contain;
 }
 
-.no-webp .benefits__item:nth-child(3)::before{
-  background: url("../img/benefits/benefits_pishchevareniye.png") center center no-repeat; }
-
 .benefits__item:nth-child(3)::before {
+  background: url("../img/benefits/benefits_pishchevareniye.png") center center no-repeat;
   width: 93px;
   height: 93px;
 }
 
-.no-webp .benefits__item:nth-child(3)::after{
-  background: url("../img/benefits/benefits_decor-3.png") center center no-repeat; }
-
 .benefits__item:nth-child(3)::after {
+  background: url("../img/benefits/benefits_decor-3.png") center center no-repeat;
   background-size: contain;
 }
 
-.no-webp .benefits__item:nth-child(4)::before{
-  background: url("../img/benefits/benefits_immunitet.png") center center no-repeat; }
-
 .benefits__item:nth-child(4)::before {
+  background: url("../img/benefits/benefits_immunitet.png") center center no-repeat;
   width: 90px;
   height: 90px;
 }
 
-.no-webp .benefits__item:nth-child(4)::after{
-  background: url("../img/benefits/benefits_decor-4.png") center center no-repeat; }
-
 .benefits__item:nth-child(4)::after {
+  background: url("../img/benefits/benefits_decor-4.png") center center no-repeat;
   background-size: contain;
 }
 
@@ -621,11 +606,9 @@ h2 {
   margin: 0 0 12px 0;
 }
 
-.no-webp .cook{
-  background: url("../img/cook_background.png") center center no-repeat; }
-
 .cook {
   position: relative;
+  background: url("../img/cook_background.png") center center no-repeat;
   background-size: cover;
   padding: 30px 0 60px 0;
 }
@@ -822,6 +805,11 @@ h2 {
 }
 
 @media (max-width: 77.49875em) {
+  .webp .main {
+    background: #fff url("../img/main_background.jpg") 150px center no-repeat;
+    background-size: contain;
+  }
+
   .header__menu-link {
     font-size: 15px;
     padding: 22px 18px;
@@ -831,10 +819,8 @@ h2 {
     font-size: 15px;
   }
 
-  .no-webp .main{
-    background: #fff url("../img/main_background.jpg") 150px center no-repeat; }
-
   .main {
+    background: #fff url("../img/main_background.jpg") 150px center no-repeat;
     background-size: contain;
   }
 }
@@ -942,14 +928,17 @@ h2 {
     font-size: 26px;
   }
 
+  .webp .main {
+    background: #fff url("../img/main_background.jpg") -72vw top no-repeat;
+    background-size: 200%;
+  }
+
   .header__phone-link {
     font-size: 16px;
   }
 
-  .no-webp .main{
-    background: #fff url("../img/main_background.jpg") -72vw top no-repeat; }
-
   .main {
+    background: #fff url("../img/main_background.jpg") -72vw top no-repeat;
     background-size: 200%;
     padding: 30px 0;
   }
@@ -1130,36 +1119,4 @@ h2 {
   .cook-tabs__button:hover .cook-tabs__button-text {
     color: var(--color-cobalt);
   }
-}
-
-.webp .main{ background: #fff url(../img/main_background.webp) center center no-repeat; }
-
-.webp .benefits__body{ background: url(../img/benefits/benefits_background.webp) center center no-repeat; }
-
-.webp .benefits__item:nth-child(1)::before{ background: url(../img/benefits/benefits_svezhiy.webp) center center no-repeat; }
-
-.webp .benefits__item:nth-child(1)::after{ background: url(../img/benefits/benefits_decor-1.webp) center center no-repeat; }
-
-.webp .benefits__item:nth-child(2)::before{ background: url(../img/benefits/benefits_zhivoy.webp) center center no-repeat; }
-
-.webp .benefits__item:nth-child(2)::after{ background: url(../img/benefits/benefits_decor-2.webp) center center no-repeat; }
-
-.webp .benefits__item:nth-child(3)::before{ background: url(../img/benefits/benefits_pishchevareniye.webp) center center no-repeat; }
-
-.webp .benefits__item:nth-child(3)::after{ background: url(../img/benefits/benefits_decor-3.webp) center center no-repeat; }
-
-.webp .benefits__item:nth-child(4)::before{ background: url(../img/benefits/benefits_immunitet.webp) center center no-repeat; }
-
-.webp .benefits__item:nth-child(4)::after{ background: url(../img/benefits/benefits_decor-4.webp) center center no-repeat; }
-
-.webp .cook{ background: url(../img/cook_background.webp) center center no-repeat; }
-
-@media (max-width: 77.49875em){
-
-  .webp .main{ background: #fff url(../img/main_background.webp) 150px center no-repeat; }
-}
-
-@media (max-width: 47.99875em){
-
-  .webp .main{ background: #fff url(../img/main_background.webp) -72vw top no-repeat; }
 }
