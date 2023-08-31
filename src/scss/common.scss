@@ -19,6 +19,24 @@
       transition: 0.2s ease;
     }
   }
+  .button {
+    transition: 0.2s ease;
+
+    &:hover {
+      background: #0969bd;
+      transition: 0.2s ease;
+    }
+  }
+  .cook-tabs__button {
+    &:hover {
+      & svg {
+        fill: var(--color-cobalt);
+      }
+      & .cook-tabs__button-text {
+        color: var(--color-cobalt);
+      }
+    }
+  }
 }
 h1,
 h2 {
@@ -28,6 +46,13 @@ h2 {
   text-transform: uppercase;
   color: var(--color-title);
   line-height: 1.2;
+
+  @media (max-width: $mobile) {
+    font-size: 28px;
+  }
+  @media (max-width: $mobileSmall) {
+    font-size: 24px;
+  }
 }
 h2 {
   text-align: center;
@@ -45,7 +70,17 @@ h2 {
   font-weight: 300;
   color: var(--color-title);
   text-align: center;
+
+  @media (max-width: $mobile) {
+    font-size: 26px;
+  }
+  @media (max-width: $mobileSmall) {
+    font-size: 20px;
+  }
 }
 .desc {
   line-height: 1.9;
+  @media (max-width: $mobileSmall) {
+    line-height: 1.5;
+  }
 }

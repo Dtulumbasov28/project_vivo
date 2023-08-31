@@ -1,7 +1,20 @@
 .main {
-  padding: 110px 0;
   background: #fff url("@img/main_background.jpg") center center no-repeat;
   background-size: contain;
+  padding: 110px 0;
+
+  @media (max-width: $notebook) {
+    background: #fff url("@img/main_background.jpg") 150px center no-repeat;
+    background-size: contain;
+  }
+  @media (max-width: $tablet) {
+    padding: 60px 0;
+  }
+  @media (max-width: $mobile) {
+    background: #fff url("../img/main_background.jpg") -72vw top no-repeat;
+    background-size: 200%;
+    padding: 30px 0;
+  }
 
   // .main__container
 
@@ -12,18 +25,29 @@
 
   &__body {
     max-width: 550px;
+    @media (max-width: $mobile) {
+      max-width: unset;
+      margin-top: 63%;
+    }
   }
 
   // .main__title
 
   &__title {
     margin: 0 0 26px 0;
+
+    @media (max-width: $mobile) {
+      margin: 0 0 10px 0;
+    }
   }
 
   // .main__desc
 
   &__desc {
     margin: 0 0 38px 0;
+    @media (max-width: $mobileSmall) {
+      margin: 0 0 20px 0;
+    }
   }
 
   // .main__button
