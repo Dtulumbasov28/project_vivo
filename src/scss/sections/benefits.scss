@@ -9,8 +9,9 @@
   // .benefits__body
 
   &__body {
-    background: url("@img/benefits/benefits_background.png") center center
-      no-repeat;
+    background-image: url("@img/benefits/benefits_background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
     max-width: 1000px;
     margin: 0 auto;
   }
@@ -83,56 +84,69 @@
 
     &:nth-child(1) {
       &::before {
-        background: url("@img/benefits/benefits_svezhiy.png") center center
-          no-repeat;
+        background-image: url("@img/benefits/benefits_svezhiy.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
         width: 91px;
         height: 91px;
       }
       &::after {
-        background: url("@img/benefits/benefits_decor-1.png") center center
-          no-repeat;
+        background-image: url("@img/benefits/benefits_decor-1.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
         background-size: contain;
       }
     }
 
     &:nth-child(2) {
       &::before {
-        background: url("@img/benefits/benefits_zhivoy.png") center center
-          no-repeat;
+        background-image: url("@img/benefits/benefits_zhivoy.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
         width: 88px;
         height: 91px;
       }
       &::after {
-        background: url("@img/benefits/benefits_decor-2.png") center center
-          no-repeat;
+        background-image: url("@img/benefits/benefits_decor-2.png");
+        background-position: center center;
+        background-repeat: no-repeat;
         background-size: contain;
       }
     }
 
     &:nth-child(3) {
       &::before {
-        background: url("@img/benefits/benefits_pishchevareniye.png") center
-          center no-repeat;
+        background-image: url("@img/benefits/benefits_pishchevareniye.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
         width: 93px;
         height: 93px;
       }
       &::after {
-        background: url("@img/benefits/benefits_decor-3.png") center center
-          no-repeat;
+        background-image: url("@img/benefits/benefits_decor-3.png");
+        background-position: center center;
+        background-repeat: no-repeat;
         background-size: contain;
       }
     }
 
     &:nth-child(4) {
       &::before {
-        background: url("@img/benefits/benefits_immunitet.png") center center
-          no-repeat;
+        background-image: url("@img/benefits/benefits_immunitet.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
         width: 90px;
         height: 90px;
       }
       &::after {
-        background: url("@img/benefits/benefits_decor-4.png") center center
-          no-repeat;
+        background-image: url("@img/benefits/benefits_decor-4.png");
+        background-position: center center;
+        background-repeat: no-repeat;
         background-size: contain;
       }
     }
