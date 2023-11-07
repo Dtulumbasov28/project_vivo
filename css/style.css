@@ -736,9 +736,13 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .where-buy__left {
+  background-color: #f7f7fb;
   padding: 36px;
 }
 
@@ -765,6 +769,7 @@ h2 {
 }
 
 .where-buy__right {
+  background-color: #f7f7fb;
   padding: 36px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -842,12 +847,14 @@ h2 {
   }
 
   .where-buy__left {
-    padding: unset;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
   }
 
   .where-buy__right {
-    padding: unset;
+    padding: 20px;
+    border-radius: 20px;
   }
 }
 
@@ -1064,6 +1071,10 @@ h2 {
     margin: 0 auto 25px auto;
   }
 
+  .where-buy__left {
+    padding: 34px 20px;
+  }
+
   .where-buy__left-imgs {
     margin: unset;
   }
@@ -1071,11 +1082,16 @@ h2 {
   .where-buy__left-img img {
     width: 100%;
     height: 100%;
+    padding: 5px;
   }
 
   .where-buy__left-img {
     max-width: 100px;
     margin: 0 auto;
+  }
+
+  .where-buy__right {
+    padding: 34px 20px;
   }
 
   .where-buy__right-imgs {
