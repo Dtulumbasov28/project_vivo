@@ -1,28 +1,17 @@
 .cook {
-  position: relative;
-  background: url("@img/cook_background.png") center center no-repeat;
-  background-size: cover;
-  padding: 30px 0 60px 0;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-      180deg,
-      rgba(157, 191, 242, 0.18) 0%,
-      rgba(157, 191, 242, 0) 100%
-    );
-    z-index: 0;
-  }
   // .cook__container
 
   &__container {
     position: relative;
     z-index: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #d0d0d0;
+
+    @media (max-width: $tablet) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
   }
 
   // .cook__body
@@ -48,6 +37,10 @@
     max-width: 710px;
     text-align: center;
     margin: 0 auto 35px auto;
+
+    @media (max-width: $mobile) {
+      margin: 0 auto 25px auto;
+    }
   }
 
   // .cook__tabs
@@ -100,11 +93,11 @@
     @media (max-width: $mobileBig) {
       padding: 0 0 20px 0;
     }
-    @media (max-width: $mobileSmall) {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      margin: -14px;
-    }
+    // @media (max-width: $mobileSmall) {
+    //   display: grid;
+    //   grid-template-columns: repeat(2, 1fr);
+    //   margin: -14px;
+    // }
   }
 
   // .cook-tabs__button
@@ -113,7 +106,7 @@
     margin: 0 5px;
 
     @media (max-width: $mobileSmall) {
-      margin: 14px;
+      margin: 0 3px;
     }
     &._tab-active {
       & .cook-tabs__button-img {
@@ -159,6 +152,9 @@
     @media (max-width: $mobileBig) {
       font-size: 14px;
     }
+    @media (max-width: $mobileSmall) {
+      font-size: 11px;
+    }
   }
 
   // .cook-tabs__content
@@ -172,30 +168,6 @@
 
   &__body {
     margin: 30px 0 0 0;
-    &:not(:nth-child(2)) {
-      margin: 30px 0 60px 0;
-
-      @media (max-width: $mobileSmall) {
-        margin: 30px 0 0 0;
-      }
-    }
-    &:nth-child(2) {
-      margin: 10px 0 0 0;
-
-      @media (max-width: $mobileSmall) {
-        margin: 30px 0 0 0;
-      }
-
-      & .cook-tabs__item:not(:last-child) {
-        margin-bottom: 0;
-      }
-      & .cook-tabs__item-img {
-        max-width: 130px;
-        @media (max-width: $mobileSmall) {
-          max-width: 100px;
-        }
-      }
-    }
   }
 
   // .cook-tabs__list

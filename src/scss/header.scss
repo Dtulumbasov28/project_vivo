@@ -198,18 +198,16 @@
   // .burger__menu-nav
 
   &__menu-nav {
-    background-color: #fff;
-    border-radius: 8px;
-    width: min-content;
+    background-color: $colorBlue;
+    width: max-content;
     height: min-content;
-    box-shadow: 0px 0px 4px 4px rgba(150, 157, 249, 0.16);
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     position: absolute;
-    right: 24px;
+    right: 0;
     top: 63px;
     opacity: 0;
     transform: scale(0);
-    transform-origin: bottom right;
+    transform-origin: top right;
     transition: all 0.3s ease 0.1s;
   }
 
@@ -221,13 +219,17 @@
   // .burger__menu-item
 
   &__menu-item {
-    padding: 6px 0;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    padding: 10px 0;
     opacity: 0;
     transition: 0.2s ease-in;
     transform: translatex(-10px);
 
     &:last-child {
-      padding: 6px 0 0 0;
+      padding: 10px 0 0 0;
+      margin-top: 20px;
     }
   }
 
@@ -255,6 +257,9 @@
     }
     &:nth-child(4) {
       animation-delay: 1s;
+    }
+    &:nth-child(5) {
+      animation-delay: 1.2s;
     }
   }
 }

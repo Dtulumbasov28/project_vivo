@@ -47,6 +47,9 @@ h2 {
   color: var(--color-title);
   line-height: 1.2;
 
+  @media (max-width: $notebook) {
+    font-size: 30px;
+  }
   @media (max-width: $mobile) {
     font-size: 28px;
   }
@@ -82,5 +85,19 @@ h2 {
   line-height: 1.9;
   @media (max-width: $mobileSmall) {
     line-height: 1.5;
+  }
+}
+.page__button {
+  display: none;
+  padding: 14px 34px;
+  background-color: #25bf68;
+  box-shadow: 0px 0px 5px 0px #0a7d3c40;
+
+  @media (max-width: $mobileBig) {
+    display: unset;
+    position: fixed;
+    z-index: 10;
+    right: 15px;
+    bottom: 20px;
   }
 }
